@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@keyframes grow {
+  0% {
+    height: 0%;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.testimonialSwiper .swiper-wrapper {
+  align-items: stretch;
+}
+
+.testimonialSwiper .swiper-slide {
+  height: auto;
+  display: flex;
+}
+
+.testimonialSwiper .swiper-slide > div {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # ae old domain to new domain
+    RewriteCond %{HTTP_HOST} ^(www\.)?endlesssolution\.in$ [NC]
+    RewriteRule ^(.*)$ https://endlesssol.com/$1 [R=301,L]
+
+    RewriteBase /
+
+    # Serve existing files/folders
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # React SPA
+    RewriteRule ^ index.html [L]
+</IfModule>
