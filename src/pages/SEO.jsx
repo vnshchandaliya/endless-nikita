@@ -31,22 +31,20 @@ const features = [
 export default function SEOPage() {
   return (
     <>
-       <Helmet>
-      <title>
-     SEO Services | Search Engine Optimization Company | Endless Solution
-  </title>
+      <Helmet>
+        <title>SEO Services in Delhi – Endless Solution</title>
 
-   <meta
-    name="keywords"
-    content="Improve your Google rankings and grow organic traffic with Endless Solution's professional SEO services. We deliver on-page, off-page, technical SEO, and local SEO solutions."
-  />
+        <meta
+          name="keywords"
+          content="Improve your Google rankings and grow organic traffic with Endless Solution's professional SEO services. We deliver on-page, off-page, technical SEO, and local SEO solutions."
+        />
+        <meta
+          name="description"
+          content="Get professional SEO services in Delhi from Endless Solution. Boost Google rankings, drive organic traffic, generate leads, and grow your online business."
+        />
 
-    <link
-    rel="canonical"
-    href="https://endlesssol.com/seo"
-  />
-       
-    </Helmet>
+        <link rel="canonical" href="https://endlesssol.com/seo" />
+      </Helmet>
 
       <div className=" text-white">
         {/* 🔥 HERO */}
@@ -64,9 +62,9 @@ export default function SEOPage() {
               animate={{ opacity: 1, y: 0 }}
               className="text-5xl md:text-7xl font-bold"
             >
-              SEO Services{" "}
+              SEO Company{" "}
               <span className="bg-gradient-to-r from-blue-200 via-green-200 to-yellow-200 text-transparent bg-clip-text">
-                That Grow Your Business
+                in Delhi for Higher Google Rankings
               </span>
             </motion.h1>
 
@@ -99,23 +97,29 @@ export default function SEOPage() {
               whileInView={{ opacity: 1, x: 0 }}
             >
               <h2 className="text-3xl font-bold mb-4">
-                Enterprise SEO Services That Drive Qualified Growth
+                Expert SEO Services in Delhi for More Traffic & Leads
               </h2>
 
               <p className="text-black font-bold mb-6">
                 Drive More Traffic, Leads, and Revenue with Data-Driven SEO{" "}
               </p>
-              <p>
-                Search engines are where buying decisions begin. Whether you're
-                a startup, local business, eCommerce brand, SaaS company, or
-                enterprise organization, your customers are actively searching
-                for solutions. The question is: are they finding you or your
-                competitors? At Endless Sol, we deliver performance-driven SEO
-                strategies that increase organic visibility, attract qualified
-                traffic, and turn search demand into measurable revenue. Our
-                approach combines technical excellence, content authority, user
-                experience optimization, and data-driven growth strategies to
-                create sustainable rankings that last.
+              <p className="mt-5 text-[15px] sm:text-lg leading-7 sm:leading-8 text-gray-600">
+                Improve your website's visibility, attract relevant visitors,
+                and generate more potential customers with Endless Solution's
+                SEO services in Delhi.
+              </p>
+              <p className="mt-5 text-[15px] sm:text-lg leading-7 sm:leading-8 text-gray-600">
+                We create customized SEO strategies for businesses that want to
+                build a stronger presence on Google and reach customers
+                searching for their products or services. From technical SEO and
+                on-page optimization to local SEO, content optimization, and
+                ecommerce SEO, we focus on improving the overall search
+                performance of your website.
+              </p>
+              <p className="mt-5 text-[15px] sm:text-lg leading-7 sm:leading-8 text-gray-600">
+                Whether you are a local business, startup, service provider, or
+                ecommerce brand, our SEO strategies are tailored to your
+                industry, competition, target audience, and business goals.
               </p>
 
               {/* <div className="space-y-3">
@@ -135,7 +139,7 @@ export default function SEOPage() {
                 to="/contact"
                 className="inline-block mt-8 px-6 py-3 rounded-lg bg-[radial-gradient(circle_at_30%_40%,_#2563eb_0%,_#22c55e_100%)] text-white shadow-lg hover:scale-105 transition duration-300"
               >
-                Get Free SEO Audit
+                Get a Free SEO Consultation
               </Link>
             </motion.div>
           </div>

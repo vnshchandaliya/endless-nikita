@@ -1,17 +1,14 @@
 import { motion } from "framer-motion";
 import { FiTrendingUp, FiUsers, FiTarget, FiBarChart2 } from "react-icons/fi";
-import WhyChooseimg from "../assets/image/whychoose.png"
+import WhyChooseimg from "../assets/image/whychoose.png";
 import { Link } from "react-router-dom";
-
 
 export default function WhyChoose() {
   return (
     <section className="py-20 px-6 bg-gray-50">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
-
         {/* 🔵 LEFT SIDE */}
         <div className="relative flex justify-center">
-
           {/* Gradient Box */}
           <div className="w-full max-w-md h-[320px] rounded-3xl bg-[radial-gradient(circle_at_30%_40%,_#2563eb_0%,_#22c55e_100%)] flex items-center justify-center drop-shadow-xl">
             <img src={WhyChooseimg} alt="" />
@@ -31,20 +28,25 @@ export default function WhyChoose() {
         {/* 🟣 RIGHT SIDE */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-            Grow Your Business with a Trusted Digital Marketing Company
+            Digital Marketing Agency in Delhi That Helps Businesses Grow Online
           </h2>
 
           <p className="mt-4 text-gray-600">
-           Running a business is hard enough without wondering why your website feels invisible. You pour time and money into marketing, yet traffic crawls, leads stall, and sales feel hit-or-miss. Sound familiar?
+            Endless Solution provides digital marketing and SEO services to
+            businesses across Delhi, helping local businesses improve their
+            online visibility, reach nearby customers and generate more
+            enquiries through Google Search, Google Maps, social media and paid
+            advertising.
           </p>
-           <p className="mt-4 text-gray-600">
-            That’s where Endless Sol comes in. Our small, focused team combines proven strategies, data-driven insights, and customized digital marketing solutions to turn website visitors into qualified leads and loyal customers. No guesswork, just clear steps backed by data you can see.
-
-           </p>
+          <p className="mt-4 text-gray-600">
+            Whether your business is located in North Delhi, West Delhi, South
+            Delhi, East Delhi, Central Delhi or New Delhi, our digital marketing
+            strategies can be tailored to your target location, audience and
+            business goals.
+          </p>
 
           {/* FEATURES */}
           <div className="mt-8 grid sm:grid-cols-2 gap-6">
-
             {/* ITEM */}
             <div className="flex gap-4">
               <div className="bg-blue-100 p-3 rounded-lg">
@@ -93,13 +95,14 @@ export default function WhyChoose() {
                 </p>
               </div>
             </div>
-
           </div>
 
           {/* BUTTON */}
-          <Link to={"/about"}><button className="mt-8 px-6 py-3 rounded-lg bg-[radial-gradient(circle_at_30%_40%,_#2563eb_0%,_#22c55e_100%)] text-white shadow-lg hover:scale-105 transition">
-            Book your free consultation
-          </button></Link>
+          <Link to={"/about"}>
+            <button className="mt-8 px-6 py-3 rounded-lg bg-[radial-gradient(circle_at_30%_40%,_#2563eb_0%,_#22c55e_100%)] text-white shadow-lg hover:scale-105 transition">
+              Book your free consultation
+            </button>
+          </Link>
         </div>
       </div>
     </section>

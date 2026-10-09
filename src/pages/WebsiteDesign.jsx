@@ -47,12 +47,12 @@ export default function WebsiteDesign() {
     <>
     <Helmet>
   <title>
-     Website Development Services | Custom Web Design | Endless Solution
+    Website Design Company in Delhi | Endless Solution
   </title>
 
   <meta
     name="description"
-    content="Create a professional, responsive, and SEO-friendly website with Endless Sol. We design modern business, corporate, portfolio, and e-commerce websites that help grow your brand and increase conversions."
+    content="Get professional website design in Delhi from Endless Solution. Build responsive, SEO-friendly and high-converting websites that help grow your business online. "
   />
 
   <meta
@@ -87,9 +87,9 @@ export default function WebsiteDesign() {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl font-bold"
           >
-            Website Designing Services{" "}
+            Website Designing Company{" "}
             <span className="bg-gradient-to-r from-blue-200 via-green-200 to-yellow-200 text-transparent bg-clip-text">
-              That Help Your Brand Stand Out Online
+              in Delhi for High-Converting Websites
             </span>
           </motion.h1>
 
@@ -127,27 +127,25 @@ export default function WebsiteDesign() {
       className="order-2"
     >
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-        Custom Website Design
+        Custom Website Design 
+
         <span className="block text-blue-500">
-          Solutions for Businesses Worldwide
+         Solutions in Delhi 
         </span>
       </h2>
 
       <p className="mt-6 text-[15px] sm:text-lg text-gray-600 leading-7 sm:leading-8">
-        Your website is more than just an online presence—it's the face of
-        your brand and one of your most powerful marketing tools. At
-        <span className="font-semibold text-blue-500">
-          {" "}Endless Solution
-        </span>
-        , we create modern, responsive, and user-focused websites that
-        help businesses attract visitors, build credibility, and generate
-        more leads.
+       Your website is more than just an online presence—it’s the face of your brand and a powerful tool for business growth. At Endless Solution, we create modern, responsive, and 
+         
       </p>
 
       <p className="mt-5 text-[15px] sm:text-lg text-gray-600 leading-7 sm:leading-8">
-        Whether you're a startup, small business, or established
-        enterprise, our website designing services are tailored to match
-        your brand identity, business goals, and customer expectations.
+        user-friendly websites that help businesses build credibility, attract visitors, and generate quality leads.
+
+      </p>
+      <p className="mt-5 text-[15px] sm:text-lg text-gray-600 leading-7 sm:leading-8">
+        Whether you’re a startup, small business, or established enterprise, our website design solutions in Delhi are tailored to your brand identity, business goals, and customer expectations.
+
       </p>
 
       {/* Highlight Box */}
@@ -326,9 +324,9 @@ export default function WebsiteDesign() {
             className="max-w-3xl mx-auto text-center"
           >
             <h2 className="mt-5 text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              Professional
+              Professional    Website Designing
               <span className="block text-blue-500">
-                Website Designing Services
+             Services in Delhi
               </span>
             </h2>
 

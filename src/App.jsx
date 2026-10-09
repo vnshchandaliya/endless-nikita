@@ -26,6 +26,7 @@ import BlogThree from "./pages/Blog-page/BlogThree";
 import BlogFour from "./pages/Blog-page/BlogFour";
 import BlogZeroClick from "./pages/Blog-page/BlogFive";
 import BlogSix from "./pages/Blog-page/BlogSix";
+import BlogSeven from "./pages/Blog-page/BlogSeven";
 
 function App() {
   return (
@@ -73,6 +74,10 @@ function App() {
 <Route
   path="/blog/how-long-does-seo-take-to-show-results-in-2026"
   element={<BlogSix />}
+/>
+<Route
+  path="/blog/why-your-business-gets-google-traffic-but-no-calls"
+  element={<BlogSeven />}
 />
         {/* ========================= */}
       </Routes>

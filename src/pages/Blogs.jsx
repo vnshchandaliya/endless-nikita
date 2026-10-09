@@ -7,6 +7,14 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 
 const blogs = [
   {
+  slug: "/blog/why-your-business-gets-google-traffic-but-no-calls",
+  title: "Why Your Business Gets Google Traffic, But No Calls (How to Fix It)",
+  desc:
+    "Getting plenty of Google traffic but zero phone calls? Discover the hidden reasons why visitors aren't converting and learn how to turn clicks into clients.",
+  date: "September 24, 2026",
+image: "/BlogsIMG/blog7.webp",
+},
+  {
   slug: "/blog/how-long-does-seo-take-to-show-results-in-2026",
   title: "How Long Does SEO Take to Show Results in 2026?",
   desc:
